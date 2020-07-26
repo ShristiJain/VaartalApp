@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "715626497223",
+    "firebase_url": "https://vartalapp-83d47.firebaseio.com",
+    "project_id": "vartalapp-83d47",
+    "storage_bucket": "vartalapp-83d47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715626497223:android:d0ffca72e777135aeceae2",
+        "android_client_info": {
+          "package_name": "com.example.vartalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715626497223-jrh2vj1or751o8hf2p6ln773bv02c66c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vartalapp",
+            "certificate_hash": "bcd1d211fefb2e3e9c906e02944d9c7f6c4147ae"
+          }
+        },
+        {
+          "client_id": "715626497223-bjmgg3h9h54qai4qatak7s6vgkgc67gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEdyCE6piZsdwqxADlb0W430izE3MOsK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715626497223-bjmgg3h9h54qai4qatak7s6vgkgc67gh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

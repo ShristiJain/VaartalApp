@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColorLight"
+    android:orientation="vertical"
+    tools:context=".ChoiceActivity">
+
+
+    <TextView
+        android:id="@+id/headingChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/continue_to_your_own_vaartalapp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/myChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/mainColorDark"
+        android:text="@string/my_chats"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textColorHighlight="#00BCD4"
+        android:textSize="18sp"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:id="@+id/newone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/join_create_new"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="18dp" />
+
+    <RadioButton
+        android:id="@+id/classroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/classroom"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginStart="18dp" />
+
+    <RadioButton
+        android:id="@+id/business"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/business"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginStart="18dp" />
+
+    <RadioButton
+        android:id="@+id/groupChatRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/chat_group"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+</LinearLayout>

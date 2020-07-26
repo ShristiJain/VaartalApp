@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColorLight"
+    android:orientation="vertical"
+    tools:context=".BusinessLoginActivity">
+
+    <TextView
+        android:id="@+id/businessText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/create_your_busines_account"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="24dp"
+        android:contentDescription="@string/business_hologram"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="120dp"
+        android:background="@color/mainColorDark"
+        android:text="@string/upload"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="120dp" />
+
+    <EditText
+        android:id="@+id/businessNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/enter_business_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black2"
+        android:autofillHints=""
+        android:layout_marginStart="18dp" />
+
+    <EditText
+        android:id="@+id/businessDespEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/enter_business_description"
+        android:inputType="textPersonName"
+        android:autofillHints=""
+        android:layout_marginStart="18dp" />
+
+    <EditText
+        android:id="@+id/businessPasswordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:autofillHints=""
+        android:layout_marginStart="18dp" />
+
+    <Button
+        android:id="@+id/createBusinessEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="120dp"
+        android:background="@color/mainColorDark"
+        android:text="@string/create"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="120dp" />
+</LinearLayout>

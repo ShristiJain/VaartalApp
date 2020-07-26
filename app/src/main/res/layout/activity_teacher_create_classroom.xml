@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColorLight"
+    android:orientation="vertical"
+    tools:context=".TeacherCreateClassroom">
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/learn_and_grow_together"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_marginStart="24dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp">
+
+        <RadioButton
+            android:id="@+id/createNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/create_new_classroom"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginStart="18dp" />
+
+        <RadioButton
+            android:id="@+id/existJoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/join_a_existing_classroom_as_a_teacher"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginStart="18dp" />
+    </RadioGroup>
+</LinearLayout>

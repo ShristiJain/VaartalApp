@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColorLight"
+    android:orientation="vertical"
+    tools:context=".TeacherJoinActivity">
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/join_a_class_as_a_teacher"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="18dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/enter_class_teacher_code"
+        android:inputType="textPersonName"
+        android:autofillHints=""
+        android:layout_marginStart="18dp" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="120dp"
+        android:background="@color/mainColorDark"
+        android:text="@string/join"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="120dp" />
+</LinearLayout>

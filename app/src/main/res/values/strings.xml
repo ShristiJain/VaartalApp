@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">VartalApp</string>
+    <string name="enter_profile_name">Enter Profile Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_email_id">Enter Email-id</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="register">Register</string>
+    <string name="continue_to_your_own_vaartalapp">Continue to your own VaartalApp !!</string>
+    <string name="my_chats">My Chats</string>
+    <string name="classroom">Classroom</string>
+    <string name="business">Business</string>
+    <string name="join_create_new">Join / Create New</string>
+    <string name="vaartalapp_classroom">VaartalApp Classroom</string>
+    <string name="create_your_own_classrooms_as_a_teacher_or_join_one_as_a_student">Create your own classrooms as a teacher or join one as a student</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="continue_as">Continue as</string>
+    <string name="learn_and_grow_together">learn and grow together</string>
+    <string name="create_new_classroom">Create New Classroom</string>
+    <string name="join_a_existing_classroom_as_a_teacher">Join a existing Classroom as a Teacher</string>
+    <string name="student_login">Student Login</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_link_to_join">Enter link to join</string>
+    <string name="create_classroom">Create Classroom</string>
+    <string name="enter_classroom_name">Enter Classroom Name</string>
+    <string name="enter_classroom_description">Enter Classroom description</string>
+    <string name="add_students_number">Add Students Number</string>
+    <string name="create">create</string>
+    <string name="join_a_class_as_a_teacher">Join a class as a Teacher</string>
+    <string name="enter_class_teacher_code">Enter Class Teacher Code</string>
+    <string name="join">Join</string>
+    <string name="create_your_busines_account">Create your Busines account</string>
+    <string name="upload">Upload Business Hologram</string>
+    <string name="enter_business_description">Enter Business Description</string>
+    <string name="enter_business_name">Enter Business Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="business_hologram">Business Hologram</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="newSettings">New</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="logout">Logout</string>
+    <string name="select_picture">Select picture</string>
+    <string name="how_do_you_feel">How do you feel?</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="chat_group">Chat Group</string>
+    <string name="upload_group_icon">Upload Group icon</string>
+    <string name="enter_group_name">Enter Group Name</string>
+    <string name="enter_group_description">Enter group description</string>
+    <string name="delete_account">Delete account</string>
+</resources>
